@@ -1,10 +1,10 @@
 <registartionData>
 	<data>
-		<FirstName>myfirstNaomes</FirstName>
-		<LastName>mylastNames</LastName>
+		<FirstName>myfirstName</FirstName>
+		<LastName>mylastName</LastName>
 	</data>
 	<data>
-		<FirstName>yourfirstName1</FirstName>
-		<LastName>yourlastName1</LastName>
+		<FirstName>yourfirstName</FirstName>
+		<LastName>yourlastName</LastName>
 	</data>
 </registartionData>

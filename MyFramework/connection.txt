@@ -1,0 +1,19 @@
+java -Dwebdriver.chrome.driver="C:\PNCB\Jar files\chromedriver.exe" -jar selenium-server-standalone-2.53.0.jar - role webdriver -hub  http://10.231.143.70:5656/grid/register -port 4343
+
+
+http://10.231.143.217:4343/wd/hub
+
+
+
+
+Machine A:
+Need to create it as HUB:
+Command is to run the 
+java -jar selenium-server-standalone-2.53.0.jar -role hub -prt 5656
+
+
+Machine B:
+
+java -Dwebdriver.chrome.driver="C:\PNCB\Jar files\chromedriver.exe" -jar selenium-server-standalone-2.53.0.jar - role webdriver -hub  http://10.231.143.170:5656/grid/register -port 4343
+
+NOTE: 10.231.143.170 is the Node machien IPAnd also make sure Command is being executed from the loaction where selenium server is being saved at the Node machine.

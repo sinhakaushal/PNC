@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="listener.utilities.MyListener"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="tests.RegistrationTest">
+      <class name="com.accenture.tests.Demo_Grid">
         <methods>
           <include name="beforeTest"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- tests.RegistrationTest -->
-      <class name="tests.LoginTest">
-        <methods>
-          <include name="LoginInvalid"/>
-        </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- com.accenture.tests.Demo_Grid -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

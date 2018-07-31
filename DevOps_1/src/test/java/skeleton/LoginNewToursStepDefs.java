@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-//new Code2
+//new Code3
 public class LoginNewToursStepDefs {
 	private WebDriver driver;
 	@Given("^user is on the login page of newtours$")

@@ -20,7 +20,7 @@ Registration r;
 ExcelUtility e;
 	@BeforeTest
 	  public void beforeTest() {
-		System.setProperty("webdriver.chrome.driver","C:\\PNCB\\WorkSpace\\test1maven\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","‪C:\\PNCB\\Jar files\\chromedriver.exe");
 		  d=new ChromeDriver();
 		  d.manage().window().maximize();
 		  d.get("http://demowebshop.tricentis.com/register");

@@ -1,4 +1,4 @@
-#new Feature
+#new Feature2
 Feature: Login
 
 In order to login to newtours 

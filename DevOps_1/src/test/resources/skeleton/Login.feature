@@ -12,7 +12,7 @@ Given user is on the login page of newtours
 When user enters correct credentials in newtours
 Then user can do successful login
 
-#Scenario: user cannot do login with incorrect credentials
+#Scenario: user cannot do login with incorrect credentials1
 #Given user is on the login page of newtours
 #When user enters incorrect credentials in newtours
 #Then user can do successful login
